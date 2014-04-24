@@ -249,10 +249,6 @@ The version of the `puppetdb` package that should be installed.  You may specify
 
 The name of the puppetdb service.
 
-####`puppetdb_service_status`
-
-Sets whether the service should be running or stopped. When set to stopped the service doesn't start on boot either. Valid values are 'true', 'running', 'false', and 'stopped'.
-
 ####`manage_redhat_firewall`
 
 *DEPRECATED: Use open_ssl_listen_port instead.*
@@ -424,7 +420,6 @@ Platforms:
 * RHEL6
 * Debian6
 * Ubuntu 10.04
-* Archlinux
 
 Development
 ------------
